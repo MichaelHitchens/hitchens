@@ -17,7 +17,29 @@
 	@-ms-keyframes bg { 0% { -moz-transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); -o-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0); } 100% { -moz-transform: translate3d(-1200px,0,0); -webkit-transform: translate3d(-1200px,0,0); -o-transform: translate3d(-1200px,0,0); -ms-transform: translate3d(-1200px,0,0); transform: translate3d(-1200px,0,0); } }
 	@keyframes bg { 0% { -moz-transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); -o-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0); } 100% { -moz-transform: translate3d(-1200px,0,0); -webkit-transform: translate3d(-1200px,0,0); -o-transform: translate3d(-1200px,0,0); -ms-transform: translate3d(-1200px,0,0); transform: translate3d(-1200px,0,0); } }
 
+	@media only screen
+		and (min-device-width : 768px)
+		and (max-device-width : 1024px) {
+			#bg {
+				/*background-size: 1200px auto;*/
+				/*background-size: 35%;*/
+				/*position:relative;*/
+				width: 6000px;
+			}
+			.logo{
+				width: 90%;
+				margin-top: -10%;
+			}
+		}
+		
 	#bg {
-		background-size: 1200px auto;
-		width: 3600px;
+
+		/*background-size: 1200px auto;*/
+		background-size: 35%;
+		/*position:relative;*/
+		/*width: 700%;*/
+	}
+	.logo{
+		width: 30%;
+		margin-top: -10%;
 	}
