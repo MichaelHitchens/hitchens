@@ -1,70 +1,94 @@
 <!DOCTYPE HTML>
+<!--
+	Identity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
-		<title>Hitchens</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="Michael Hitchens Hitchensdev dj designer web seo smm" />
-
-			<!-- Yandex.Metrika counter -->
-			<script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter43772899 = new Ya.Metrika({ id:43772899, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/43772899" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-			<!-- /Yandex.Metrika counter -->
-		<script src="https://www.gstatic.com/firebasejs/3.7.3/firebase.js"></script>
-		<script>
-		  // Initialize Firebase
-		  var config = {
-		    apiKey: "AIzaSyABVTI2TAaheszPtGHsHNI0sPQRaixhCOI",
-		    authDomain: "hitchens-8607b.firebaseapp.com",
-		    databaseURL: "https://hitchens-8607b.firebaseio.com",
-		    storageBucket: "hitchens-8607b.appspot.com",
-		    messagingSenderId: "370590956535"
-		  };
-		  firebase.initializeApp(config);
-		</script>
-
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/skel.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-wide.css" />
-			<link rel="stylesheet" href="css/style-noscript.css" />
-		</noscript>
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<title>Michael Hitchens</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="loading">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+	<body class="is-loading">
 
-				<!-- Header -->
-					<header id="header">
-						<!-- <h1>Michael Hitchens</h1> -->
-						<center>
-						<img src="css/images/hitch_logo.png" alt="лого" class="logo"></center>
-						<p>Дизайн &nbsp;&bull;&nbsp; Web-разработка &nbsp;&bull;&nbsp; Seo продвижение &nbsp;&bull;&nbsp; SMM продвижение &nbsp;&bull;&nbsp; Написание статей &nbsp;&bull;&nbsp; DJ </p>
-						<nav>
-							<ul>
-								<li><a href="https://soundcloud.com/hitchens" class="fa fa-soundcloud "><span>Soundcloud1</span></a></li>
-								<li><a href="https://www.facebook.com/michael.hitchens" class="fa fa-facebook"><span>Facebook</span></a></li>
-								<li><a href="https://dribbble.com/mhitchens" class="fa fa-dribbble"><span>Dribbble</span></a></li>
-								<!-- <li><a href="https://github.com/MichaelHitchens" class="fa fa-github"><span>Github</span></a></li> -->
-								<li><a href="https://vk.com/michael_hitchens" class="fa fa-vk"><span>Вконтакте</span></a></li>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+							<h1>Michael Hitchens</h1>
+							<p>Senior Developer | Blogger | DJ</p>
+						</header>
+						<!--
+						<hr />
+						<h2>Extra Stuff!</h2>
+						<form method="post" action="#">
+							<div class="field">
+								<input type="text" name="name" id="name" placeholder="Name" />
+							</div>
+							<div class="field">
+								<input type="email" name="email" id="email" placeholder="Email" />
+							</div>
+							<div class="field">
+								<div class="select-wrapper">
+									<select name="department" id="department">
+										<option value="">Department</option>
+										<option value="sales">Sales</option>
+										<option value="tech">Tech Support</option>
+										<option value="null">/dev/null</option>
+									</select>
+								</div>
+							</div>
+							<div class="field">
+								<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+							</div>
+							<div class="field">
+								<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
+							</div>
+							<div class="field">
+								<label>But are you a robot?</label>
+								<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
+								<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Get Started</a></li>
 							</ul>
-						</nav>
-					</header>
+						</form>
+						<hr />
+						-->
+						<footer>
+							<ul class="icons">
+								<li><a href="https://vk.com/michael_hitchens" class="fa-vk">VK</a></li>
+								<li><a href="https://www.instagram.com/michael_hitchens/" class="fa-instagram">Instagram</a></li>
+								<li><a href="https://www.facebook.com/michael.hitchens" class="fa-facebook">Facebook</a></li>
+							</ul>
+						</footer>
+					</section>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<span class="copyright">&copy; <a href="#" target="_blank"></a><a href="https://hitchensdev.ru">Hitchens Development</a></span>
+						<ul class="copyright">
+							<li>&copy; Michael Hitchens</li>
 					</footer>
 
 			</div>
-		</div>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
 
 	</body>
-
 </html>
